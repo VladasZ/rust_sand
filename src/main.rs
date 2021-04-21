@@ -1,5 +1,9 @@
+//use rust_sand::lib;
 
+mod some_func;
 
 fn main() {
-    println!("Hello, world!");
+  //  lib();
+    some_func::some_func();
+    println!("Hello, world!")
 }
